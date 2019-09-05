@@ -1,0 +1,466 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+
+
+.header {
+    background-color: rgb(235, 223, 201);
+    z-index: 100;
+    top: 0px;
+    margin: 0 auto;
+    max-height: 5rem;
+    position: fixed;
+    border-bottom-style: double;
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.menu-one {
+    display: flex
+}
+
+.logo { 
+    display: flex;
+
+}
+
+.logo img { 
+    height: 100%
+}
+
+.lettering  {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 1%;
+}
+
+h6 {
+    margin-bottom: 1.7%;
+    font-family: 'calibri';
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+}
+
+h6 .bolder {
+    font-weight: bold;
+}
+
+h6 .smaller {
+    font-weight: lighter;
+}
+
+.toggle {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: black
+}
+
+#menu-two{
+    display: flex;
+ }
+
+.hide {
+     display: none;
+ }
+ 
+ li {
+    list-style: none;
+    padding: 1em
+ }
+
+ 
+
+.background-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    padding: 4%
+}
+
+.title {
+    margin: 0 10%;
+
+}
+
+.title h2 {
+    color: #333;
+    text-transform: capitalize;
+    font-family: 'Open Sans Condensed' , sans-serif;
+    line-height: 1.1;
+    letter-spacing: 0.01rem;
+}
+
+
+.title p {
+    font-family: sans-serif;
+    color: #555;
+    letter-spacing: 0.01rem;
+    line-height: 1.7;
+}
+
+
+section {
+    padding: 3rem 6.25rem 6.25rem 4%;
+    display: flex;
+}
+
+
+section .images {
+    max-width: 31.25rem;
+    margin-left: 10%;
+    
+}
+
+.image-container {
+    width: 12.5rem;
+    height: 12.5rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    margin: 0px;
+}
+
+.destinções {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.destinções span {
+    font-family: 'Open Sans Condensed' , sans-serif;
+    font-size: 2rem;
+}
+
+.destinções h3 {
+    font-family: 'Open Sans Condensed' , sans-serif;
+    letter-spacing: 0.01rem;
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+main {
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+
+
+main .title h1 {
+    color: #333;
+    font-family: 'Open Sans Condensed' , sans-serif;
+}
+
+.buttons {
+    padding-top: 2rem;
+
+
+}
+
+.par {
+    max-width: 25rem;
+    display: inline-flex;
+    margin: 0 auto;
+    background-color: #555;
+    justify-content: center;
+    
+}
+
+
+
+.par img {
+    width: 100%;
+    display: block;
+    height: auto
+}
+
+.par span {
+    margin-top: 100px;
+    color: white;
+    position: absolute;
+}
+
+
+footer {
+    position: absolute;
+    min-width: 100%;
+    max-width: 100%;
+    bottom: 0;
+    
+    background-color:  rgb(231, 167, 167);
+    opacity: 0.8;
+    display: inline-flex;
+    height: 5rem
+}
+
+ .left {
+    padding-top: 0.5rem;
+    width: 50%;
+    }
+
+.contacts {
+    
+    height: 100%
+}
+
+ .info span {
+    display: inline;
+    padding-left: 5%;
+    max-width: 2rem;
+    
+ }
+
+ .right {
+    width: 50%;
+    display: inline-flex;
+    justify-content: flex-end;
+    
+}
+
+.items {
+    max-width: 5rem;
+    min-width: 5rem;
+    border-left: 1px solid black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.items span {
+    font-size: 1rem
+}
+
+.items #logo {
+    overflow: hidden;
+    width: 80%;
+    
+}
+
+#logo img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.selector {
+    background-color: rgb(250, 218, 218);
+}
+
+.effect {
+    text-decoration: underline;
+}
+
+.options {
+    display: none
+}
+
+@media only screen and (max-width: 1210px) {
+
+    
+
+    #menu-two {
+        display: block;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.5s;
+      }
+
+    #proj {
+        display: none;
+    }
+
+    #menu-two.visible {
+        opacity: 0.9;
+        pointer-events: auto;
+    }
+
+    .hide {
+        background-color: rgb(245, 243, 229);
+        opacity: 0.95;
+        position: absolute;
+        width: 100%;
+        top: 4rem;
+        text-align: center;
+    }
+     
+    
+    
+
+    .options {
+        display: block;
+    }
+
+    .menu-one {
+        display: flex;
+        justify-content: space-between;
+        width: 100%
+    }
+    .toggle{
+        display: initial;
+        padding-top: 1.5rem;
+        transform: translate(-10px);
+        cursor: pointer;
+    }
+
+    .toggle span {
+        position: relative;
+        width: 36px;
+        height: 4px;
+        display: block;
+        background-color: black;
+        margin-bottom: 8px;
+        transition: 0.5s;
+    }
+
+    .toggle span:nth-child(1) {
+        transform-origin: left;
+    
+    }
+    
+    .toggle span:nth-child(2) {
+        transform-origin: center;
+    }
+
+    .toggle span:nth-child(3) {
+        transform-origin: left;
+    }
+
+    .toggle.active span:nth-child(1) {
+        transform: rotate(45deg);
+        left: 2px;
+    }
+
+    .toggle.active span:nth-child(2) {
+        transform: rotate(315deg);
+        right: 3px;
+    }
+
+    .toggle.active span:nth-child(3) {
+        transform: scaleX(0);
+    }
+
+}
+
+    
+
+
+@media only screen and (max-width: 665px) {
+    
+    .items {
+        max-width: 3.5rem;
+        min-width: 3.5rem;
+    }
+
+    #Contact {
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: initial;
+
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .info {
+        display: flex;
+        padding: 0.2rem;
+        justify-content: center;
+    }
+    .info span {
+        max-width: 100%
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 5%
+    }
+
+    .items {
+        border-radius: 50%;
+        border:0
+    }
+
+}
+
+@media only screen and (max-width: 559px) {
+
+    .background-image {
+        margin-top: 2.5rem
+    }
+
+    
+
+    .lettering {
+        display: none;
+    }
+
+    section .images {
+        display:none
+    }
+
+
+    .destinções{
+        text-align: center;
+        margin-left: 5.2rem
+        
+        
+    }
+    .destinções span{
+        font-size: 1.5rem;
+    
+    }
+
+    .destinções h3 {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 560px) and (max-width: 870px) {
+    .destinções {
+        margin-top: 40%;
+        margin-bottom: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 559px) and (min-width: 500px){
+    section {
+        display: flex;
+        justify-content: center
+    }
+}
