@@ -23,7 +23,8 @@ $(document).ready(() => {
     $('.active').on('click', function() {
         $('.toggle').fadeToggle()
     })
-     
+    
+    $('.toggle').show()
 
 });
 
