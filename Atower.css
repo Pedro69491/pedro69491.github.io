@@ -206,19 +206,19 @@ thead th {
     background-color: antiquewhite;
 }
 
-.fucker {
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    width:96.96%;
-    padding-bottom: 8rem
-}
-
-.fucker video {
+.video {
+    position: relative;
+    padding-bottom: 30%;
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 60%
+}
+
+.video-frame {
+    position: absolute;
+    top:0;
+    left:0;
 }
 
 footer {
