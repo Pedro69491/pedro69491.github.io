@@ -15,7 +15,7 @@ $(document).ready(() => {
     });
 
 
-    $('.toggle').on('click', function() {
+    $('.toggle, .item, .options').on('click', function() {
         $('.toggle').toggleClass('active');
         $('#menu-two').toggleClass('visible')
     }) 
@@ -24,10 +24,7 @@ $(document).ready(() => {
         $('.toggle').fadeToggle()
     })
     
-    $('ul#menu-two > li > a').click(function(e){
-      e.preventDefault();
-   });
-
+    
 });
 
 
