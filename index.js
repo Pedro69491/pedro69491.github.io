@@ -24,7 +24,9 @@ $(document).ready(() => {
         $('.toggle').fadeToggle()
     })
     
-    
+    $('ul#menu-two > li > .options').click(function(e){
+      e.preventDefault();
+   });
 });
 
 
