@@ -348,4 +348,8 @@ footer {
         display: block;
         padding-bottom: 5px
     }
+    
+    .planta {
+        overflow: auto;
+    }
 }
