@@ -30,11 +30,6 @@ body {
     display: flex
 }
 
-.logo { 
-    display: flex;
-    flex: 1;
-}
-
 .logo img { 
     height: 100%
 }
@@ -283,7 +278,9 @@ footer {
 
 @media only screen  and (max-width: 1210px) {
 
-    
+    .logo {
+        display: flex;
+        flex: 1;
 
     #menu-two {
         display: block;
