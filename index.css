@@ -461,9 +461,3 @@ footer {
 
 
 
-@media only screen and (max-width: 559px) and (min-width: 500px){
-    section {
-        display: flex;
-        justify-content: center
-    }
-}
