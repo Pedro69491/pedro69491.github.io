@@ -15,7 +15,7 @@ $(document).ready(() => {
     });
 
 
-    $('.toggle').on('click', function() {
+    $('.toggle, hide').on('click', function() {
         $('.toggle').toggleClass('active');
         $('#menu-two').toggleClass('visible')
     }) 
