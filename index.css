@@ -287,7 +287,7 @@ footer {
 @media only screen  and (max-width: 1210px) {
 
     .logo {
-        display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+        display: -webkit-flexbox;      /* OLD - iOS 6-, Safari 3.1-6 */
         display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
         display: -ms-flexbox;      /* TWEENER - IE 10 */
         display: -webkit-flex;     /* NEW - Chrome */
@@ -333,7 +333,7 @@ footer {
         width: 100%
     }
     .toggle{
-        display: initial;
+        
         padding-top: 1.5rem;
         transform: translate(-10px);
         cursor: pointer;
@@ -457,7 +457,20 @@ footer {
     }
 }
 
+@media only screen and (min-width: 560px) and (max-width: 870px) {
+    .destinções {
+        margin-top: 40%;
+        margin-bottom: 40%;
+    }
+}
 
+
+@media only screen and (max-width: 559px) and (min-width: 500px){
+    section {
+        display: flex;
+        justify-content: center
+    }
+}
 
 
 
