@@ -21,9 +21,6 @@ body {
     max-height: 5rem;
     position: fixed;
     border-bottom-style: double;
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
     display: flex;
     justify-content: space-between;
     width: 100%
@@ -288,10 +285,6 @@ footer {
 @media only screen  and (max-width: 1210px) {
 
     .logo {
-        display: -webkit-flexbox;      /* OLD - iOS 6-, Safari 3.1-6 */
-        display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-        display: -ms-flexbox;      /* TWEENER - IE 10 */
-        display: -webkit-flex;     /* NEW - Chrome */
         display: flex;
         flex: 1;
         width: calc(100% - 50px)
@@ -330,11 +323,8 @@ footer {
     }
 
     .menu-one {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: -webkit-flexbox;
         display: flex;
-        -webkit-justify-content: space-between;
+        justify-content: space-between;
         width: 100%
     }
     .toggle{
@@ -381,13 +371,6 @@ footer {
         transform: scaleX(0);
     }
     
-    .par {
-        display: -webkit-inline-flexbox;
-        display: -ms-inline-flexbox;
-        display: -webkit-inline-flex;
-        display: inline-flex;
-        align-self: start;
-    }
 
 }
 
@@ -467,6 +450,12 @@ footer {
 
     .destinções h3 {
         font-size: 1.1rem;
+    }
+    
+    .par {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
