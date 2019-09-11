@@ -475,6 +475,7 @@ footer {
     }
     .buttons {
         height: auto;
+        display: block;
     }
 }
 
