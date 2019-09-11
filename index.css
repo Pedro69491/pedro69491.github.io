@@ -452,11 +452,6 @@ footer {
         font-size: 1.1rem;
     }
     
-    .par {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 }
 
 @media only screen and (min-width: 560px) and (max-width: 870px) {
