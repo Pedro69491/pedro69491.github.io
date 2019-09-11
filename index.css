@@ -195,7 +195,7 @@ main .title h1 {
 
 
 .par img {
-    width: 100%;
+    max-width: 100%;
     display: block;
     height: auto
 }
@@ -474,7 +474,7 @@ footer {
         padding-bottom: 5px;
     }
     .buttons {
-        height: 200px;
+        height: auto;
     }
 }
 
