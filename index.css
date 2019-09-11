@@ -293,6 +293,7 @@ footer {
         display: -webkit-flex;     /* NEW - Chrome */
         display: flex;
         flex: 1;
+        width: calc(100% - 50px)
     }
     
     #menu-two {
