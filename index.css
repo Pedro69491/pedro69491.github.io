@@ -32,10 +32,12 @@ body {
 
 .menu-one {
     display: flex
+    
 }
 
 .logo {
     display: flex;
+    
 }
 
 .logo img { 
@@ -329,6 +331,8 @@ footer {
     }
 
     .menu-one {
+        display: -webkit-flex;
+        display: -webkit-flexbox;
         display: flex;
         justify-content: space-between;
         width: 100%
@@ -375,6 +379,12 @@ footer {
 
     .toggle.active span:nth-child(3) {
         transform: scaleX(0);
+    }
+    
+    .par {
+        display: -webkit-flexbox;
+        display: -webkit-flex;
+        display: flex;
     }
 
 }
