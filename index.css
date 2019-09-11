@@ -334,7 +334,7 @@ footer {
         display: -ms-flexbox;
         display: -webkit-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-justify-content: space-between;
         width: 100%
     }
     .toggle{
@@ -386,6 +386,7 @@ footer {
         display: -ms-inline-flexbox;
         display: -webkit-inline-flex;
         display: inline-flex;
+        align-self: start;
     }
 
 }
