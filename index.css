@@ -472,6 +472,7 @@ footer {
 @media only screen and (max-width: 500px) {
     .par {
         display: flex;
+        padding-bottom: 5px;
     }
 }
 
