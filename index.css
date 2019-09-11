@@ -384,7 +384,7 @@ footer {
     .par {
         display: -webkit-flexbox;
         display: -webkit-flex;
-        display: flex;
+        display: inline-flex;
     }
 
 }
