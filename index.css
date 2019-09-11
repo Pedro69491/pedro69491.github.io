@@ -472,9 +472,6 @@ footer {
 @media only screen and (max-width: 500px) {
     .par {
         display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        width: 100%;
     }
 }
 
