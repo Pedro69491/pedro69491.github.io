@@ -332,6 +332,8 @@ footer {
 
     .menu-one {
         display: -webkit-flex;
+        display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+        display: -ms-flexbox;
         display: -webkit-flexbox;
         display: flex;
         justify-content: space-between;
@@ -383,6 +385,8 @@ footer {
     
     .par {
         display: -webkit-flexbox;
+        display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+        display: -ms-flexbox;
         display: -webkit-flex;
         display: inline-flex;
     }
