@@ -473,5 +473,8 @@ footer {
         display: flex;
         padding-bottom: 5px;
     }
+    .buttons {
+        height: 200px;
+    }
 }
 
