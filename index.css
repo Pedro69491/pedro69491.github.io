@@ -25,7 +25,9 @@ body {
     display: -ms-flexbox;  
     display: -webkit-flex;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 100%
 }
 
@@ -293,6 +295,8 @@ footer {
         display: -ms-flexbox;  
 	display: -webkit-flex;
         display: flex;
+	-webkit-box-flex: 1;
+        -ms-flex: 1;
         flex: 1;
         width: calc(100% - 50px)
     }
@@ -334,12 +338,16 @@ footer {
         display: -ms-flexbox;  
 	display: -webkit-flex;
         display: flex;
-    	justify-content: space-between;
+    	-webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         width: 100%
     }
     .toggle{
         display: block;
         padding-top: 1.5rem;
+	-webkit-transform: translate(-10px);
+        -ms-transform: translate(-10px);
         transform: translate(-10px);
         cursor: pointer;
     }
@@ -351,34 +359,46 @@ footer {
         display: block;
         background-color: black;
         margin-bottom: 8px;
-        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
     }
-
-    .toggle span:nth-child(1) {
-        transform-origin: left;
+.toggle span:nth-child(1) {
+        -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+                transform-origin: left;
     
     }
     
     .toggle span:nth-child(2) {
-        transform-origin: center;
+        -webkit-transform-origin: center;
+            -ms-transform-origin: center;
+                transform-origin: center;
     }
 
     .toggle span:nth-child(3) {
-        transform-origin: left;
+        -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+                transform-origin: left;
     }
 
     .toggle.active span:nth-child(1) {
-        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
         left: 2px;
     }
 
     .toggle.active span:nth-child(2) {
-        transform: rotate(315deg);
+        -webkit-transform: rotate(315deg);
+            -ms-transform: rotate(315deg);
+                transform: rotate(315deg);
         right: 3px;
     }
 
     .toggle.active span:nth-child(3) {
-        transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
     }
     
 
@@ -484,9 +504,6 @@ footer {
         display: flex;
         padding-bottom: 5px;
     }
-    .buttons {
-        height: auto;
-        display: block;
-    }
+   
 }
 
