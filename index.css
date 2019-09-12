@@ -23,8 +23,9 @@ body {
     border-bottom-style: double;
     display: -webkit-box;
     display: -ms-flexbox;  
-	display: -webkit-flex;
+    display: -webkit-flex;
     display: flex;
+    justify-content: space-between;
     width: 100%
 }
 
@@ -290,7 +291,7 @@ footer {
     .logo {
         display: -webkit-box;
         display: -ms-flexbox;  
-	    display: -webkit-flex;
+	display: -webkit-flex;
         display: flex;
         flex: 1;
         width: calc(100% - 50px)
@@ -331,9 +332,9 @@ footer {
     .menu-one {
         display: -webkit-box;
         display: -ms-flexbox;  
-	    display: -webkit-flex;
+	display: -webkit-flex;
         display: flex;
-        -webkit-justify-content: space-between;
+    	justify-content: space-between;
         width: 100%
     }
     .toggle{
