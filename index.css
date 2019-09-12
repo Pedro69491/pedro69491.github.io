@@ -21,8 +21,10 @@ body {
     max-height: 5rem;
     position: fixed;
     border-bottom-style: double;
+    display: -webkit-box;
+    display: -ms-flexbox;  
+	display: -webkit-flex;
     display: flex;
-    justify-content: space-between;
     width: 100%
 }
 
@@ -282,8 +284,13 @@ footer {
 }
 
 @media only screen  and (max-width: 1210px) {
+    
+    
 
     .logo {
+        display: -webkit-box;
+        display: -ms-flexbox;  
+	    display: -webkit-flex;
         display: flex;
         flex: 1;
         width: calc(100% - 50px)
@@ -322,8 +329,11 @@ footer {
     }
 
     .menu-one {
+        display: -webkit-box;
+        display: -ms-flexbox;  
+	    display: -webkit-flex;
         display: flex;
-        justify-content: space-between;
+        -webkit-justify-content: space-between;
         width: 100%
     }
     .toggle{
