@@ -503,8 +503,16 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+    
+    .buttons {
+    display: flex;
+    flex-direction: column;
+    }
+
     .par {
         padding-bottom: 5px;
+        display: flex;
+        align-items: flex-start;
     }
    
 }
