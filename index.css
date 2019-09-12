@@ -517,5 +517,9 @@ footer {
     .toggle {
 	padding-left: 10px;
     }
+	
+    .logo {
+	max-width: 150px;
+    }
 }
 
