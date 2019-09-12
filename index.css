@@ -191,10 +191,13 @@ main .title h1 {
 
 .par {
     max-width: 25rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     margin: 0 auto;
-    justify-content: center;
-    
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; 
 }
 
 
@@ -501,7 +504,6 @@ footer {
 
 @media only screen and (max-width: 500px) {
     .par {
-        display: flex;
         padding-bottom: 5px;
     }
    
