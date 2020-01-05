@@ -189,27 +189,23 @@ main .title h1 {
 
 }
 
-.par {
-    max-width: 25rem;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
+.trio {
+    max-width: 20rem;
     display: inline-flex;
     margin: 0 auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; 
+    justify-content: center; 
 }
 
 
 
-.par img {
+.trio img {
     max-width: 100%;
     display: block;
-    height: auto
+    height: 200px;
 }
 
-.par span {
-    margin-top: 100px;
+.trio span {
+    margin-top: 90px;
     color: white;
     position: absolute;
 }
