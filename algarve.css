@@ -17,7 +17,7 @@ body {
 
 
 header {
-    background-image: url("../IMAGENS/beach-water-steps-sand-17727.jpg");
+    background-image: url("./beach-water-steps-sand-17727.jpg");
     background-size: cover;
     height: 700px;
 }
