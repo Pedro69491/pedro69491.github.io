@@ -21,7 +21,7 @@ div {
 }
 
 header {
-    background-image: url("./CASA\ B\ \(5\).jpg");
+    background-image: url("./IMAGENS/CASA\ B\ \(5\).jpg");
     background-size: cover;
     height: 700px;
     background-color: aquamarine
@@ -90,7 +90,7 @@ li {
     position: relative;
     margin: auto;
     padding-bottom: 50px;
-}
+  }
 
 
 .myslides {
@@ -129,18 +129,13 @@ border-radius: 3px 0 0 3px;
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
   }
-.title {
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-}
+
   
 .planta {
     height: 700px;
     background-color: white;
     overflow-y: auto;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .planta .photo {
@@ -159,21 +154,16 @@ border-radius: 3px 0 0 3px;
 }
 
 .logo-container {
-    height: 600px;
+    height: 500px;
     width: 100%;
     align-items: center;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 50px;
+    padding-bottom: 10%;
     background-color: white;
 }
 
-.logo-container h2 {
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-}
+
 .info-img {
     padding: 10px 60px;
     
@@ -187,12 +177,21 @@ border-radius: 3px 0 0 3px;
     padding-top: 2rem;
 }
 
+
+
 .video {
+    padding-bottom: 40.25%;
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    padding-bottom: 5rem
+}
+
+.video-frame {
+    position: absolute;
+    top:0;
+    left:0;
 }
 
 .frame-container {
@@ -218,6 +217,7 @@ footer {
     min-width: 100%;
     max-width: 100%;
     bottom: 0;
+    
     background-color:  rgb(231, 167, 167);
     opacity: 0.8;
     display: inline-flex;
@@ -286,15 +286,9 @@ footer {
 @media only screen and (max-width: 700px) {
     .logo-container {
         display: block;
-        padding-top: 50px;
-        height: 650px
+        padding-top: 20px;
     }
-    .logo-container h2 {
-        text-align: center;
-        font-family: 'Open Sans Condensed', sans-serif;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-    }
+
     .info-img {
         display: flex;
     }
