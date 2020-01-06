@@ -73,11 +73,19 @@ li {
     text-transform: uppercase;
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
+.building p {
+    line-height: 1.6em;
+    letter-spacing: 0.4px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 #slideshow-container {
     max-width: 100%;
     position: relative;
     margin: auto;
-  }
+}
 
   #slideshow-container h2 {
     text-align: center;
